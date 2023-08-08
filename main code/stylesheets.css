@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to bottom, #CCCCFF, #c22f56)
+  }
+    nav {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    border: 5px solid purple;
+  }
+  .home {
+    text-align:center;
+  }
+  .aboutme p {
+    text-align: center;
+  }
+  .mywork {
+    text-align: center;
+  }
+  label {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  footer {
+    text-align: center;
+  }
+  .thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 10px;
+  }
+  .art-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-self: center;
+  }
+  

@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to bottom, #CCCCFF, #c22f56)
+  }
+    nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    border: 5px solid purple;
+  }
+  .home {
+    text-align:center;
+  }
+  .aboutme{
+    text-align: center;
+  }
+  label {
+    margin-top: 10px;
+  }
